@@ -28,3 +28,4 @@ C:\Users\USUARIO\OneDrive\Escritorio\PC01_PRO\obj\Debug\net8.0\refint\PC01_PRO.d
 C:\Users\USUARIO\OneDrive\Escritorio\PC01_PRO\obj\Debug\net8.0\PC01_PRO.pdb
 C:\Users\USUARIO\OneDrive\Escritorio\PC01_PRO\obj\Debug\net8.0\PC01_PRO.genruntimeconfig.cache
 C:\Users\USUARIO\OneDrive\Escritorio\PC01_PRO\obj\Debug\net8.0\ref\PC01_PRO.dll
+C:\Users\USUARIO\OneDrive\Escritorio\PC01_PRO\obj\Debug\net8.0\PC01_PRO.sourcelink.json
