@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\PC01PRO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PC01PRO.bundle.scp.css",
-      "PackagePath": "staticwebassets\\PC01PRO.bundle.scp.css"
+      "Id": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\PC01PRO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PC01_PRO.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PC01_PRO.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\PC01PRO\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PC01PRO.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PC01_PRO.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PC01PRO.props",
-      "PackagePath": "build\\PC01PRO.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PC01_PRO.props",
+      "PackagePath": "build\\PC01_PRO.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PC01PRO.props",
-      "PackagePath": "buildMultiTargeting\\PC01PRO.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PC01_PRO.props",
+      "PackagePath": "buildMultiTargeting\\PC01_PRO.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PC01PRO.props",
-      "PackagePath": "buildTransitive\\PC01PRO.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PC01_PRO.props",
+      "PackagePath": "buildTransitive\\PC01_PRO.props"
     }
   ],
   "ElementsToRemove": []

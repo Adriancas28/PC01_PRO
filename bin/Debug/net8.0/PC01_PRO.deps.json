@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "PC01PRO/1.0.0": {
+      "PC01_PRO/1.0.0": {
         "runtime": {
-          "PC01PRO.dll": {}
+          "PC01_PRO.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "PC01PRO/1.0.0": {
+    "PC01_PRO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
