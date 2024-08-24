@@ -1,4 +1,4 @@
-namespace PC01_PRO.Models;
+namespace PC01PRO.Models;
 
 public class ErrorViewModel
 {

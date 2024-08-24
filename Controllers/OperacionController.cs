@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace PC01_PRO.Controllers
+namespace PC01PRO.Controllers
 {
     [Route("[controller]")]
     public class OperacionController : Controller
