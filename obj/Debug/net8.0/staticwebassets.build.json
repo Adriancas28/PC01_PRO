@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rZisAszy9whtX7Ej0rVOFdI5CroOONFt4XS113WywTk=",
+  "Hash": "GWbCv8xJo9/xS4YMc8p7lEXACOu8rbuiOFwcIpXwwDU=",
   "Source": "PC01_PRO",
   "BasePath": "_content/PC01_PRO",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\PC01PRO\\wwwroot\\images\\inversiones.jpg",
+      "SourceId": "PC01_PRO",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\PC01PRO\\wwwroot\\",
+      "BasePath": "_content/PC01_PRO",
+      "RelativePath": "images/inversiones.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\inversiones.jpg"
     },
     {
       "Identity": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\PC01PRO\\wwwroot\\js\\site.js",
