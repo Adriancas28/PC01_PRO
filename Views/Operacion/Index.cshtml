@@ -121,16 +121,16 @@
     <div>
         <label>Instrumentos:</label>
         <div>
+            <input type="checkbox" name="Instrumentos" value="Bonos US" />
+            <label>Bonos US</label>
+        </div>
+        <div>
             <input type="checkbox" name="Instrumentos" value="S&P 500" />
-            <label>S&P 500 ($500)</label>
+            <label>S&P 500</label>
         </div>
         <div>
             <input type="checkbox" name="Instrumentos" value="Dow Jones" />
-            <label>Dow Jones ($300)</label>
-        </div>
-        <div>
-            <input type="checkbox" name="Instrumentos" value="Bonos US" />
-            <label>Bonos US ($120)</label>
+            <label>Dow Jones</label>
         </div>
     </div>
     <div>
@@ -169,9 +169,9 @@
         </tbody>
     </table>
 
-    <p><strong>Fecha de Operación:</strong> @ViewData["FecOpe"]</p>
-    <p><strong>IGV Aplicado:</strong> $@ViewData["IGV"]</p>
+    <p><strong>Fecha:</strong> @ViewData["FecOpe"]</p>
     <p><strong>Comisión:</strong> $@ViewData["Comision"]</p>
-    <p><strong>Total a Pagar:</strong> $@ViewData["Total"]</p>
+    <p><strong>IGV:</strong> $@ViewData["IGV"]</p>
+    <p><strong>Monto a Pagar:</strong> $@ViewData["Total"]</p>
 }
 
