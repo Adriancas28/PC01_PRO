@@ -53,7 +53,7 @@ namespace PC01PRO.Controllers
 
             // Pasar los valores calculados a la vista
             ViewData["Instrumentos"] = string.Join(", ", operacion.Instrumentos);
-            ViewData["FecOpe"] = operacion.Fecha.ToString("dd/MM/yyyy");
+            ViewData["FecOpe"] = operacion.FecOpe.ToString("dd/MM/yyyy");
             ViewData["IGV"] = igv.ToString("F2");
             ViewData["Comision"] = comision.ToString("F2");
             ViewData["Total"] = total.ToString("F2");
@@ -73,7 +73,7 @@ namespace PC01PRO.Controllers
         public string? Nombre { get; set;}
         public string? Apellido { get;set;}
         public string? Correo { get; set;}
-        public DateOnly Fecha{ get; set;}
+        public DateOnly FecOpe { get; set;}
         public List<string>? Instrumentos { get; set;}
         public double? Monto { get; set;}
     }
