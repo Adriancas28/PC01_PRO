@@ -1,86 +1,103 @@
 @model PC01PRO.Controllers.Operacion
 
 <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f7f6;
+        color: #333;
+    }
+
     form {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f8f9fa;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 550px;
+        margin: 20px auto;
+        padding: 15px;
+        background-color: #ffffff;
+        border-left: 5px solid #4caf50;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
 
     form div {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     label {
-        display: block;
-        font-weight: bold;
+        font-size: 14px;
+        color: #555;
         margin-bottom: 5px;
+        display: block;
     }
 
     input[type="text"], input[type="email"], input[type="date"], input[type="number"] {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ced4da;
+        width: calc(100% - 10px);
+        padding: 8px;
+        border: 1px solid #ccc;
         border-radius: 4px;
-        font-size: 16px;
+        font-size: 14px;
+        background-color: #f9f9f9;
     }
 
     input[type="checkbox"] {
-        margin-right: 10px;
+        margin-right: 8px;
     }
 
     button[type="submit"] {
-        background-color: #007bff;
+        background-color: #4caf50;
         color: white;
-        padding: 10px 15px;
+        padding: 10px 20px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        font-size: 16px;
-        margin-right: 10px;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
     }
 
     button[type="submit"]:hover {
-        background-color: #0056b3;
+        background-color: #45a049;
     }
 
     table {
         width: 100%;
         margin-top: 20px;
-        border-collapse: collapse;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
 
     table th, table td {
-        padding: 10px;
-        border: 1px solid #dee2e6;
+        padding: 12px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e0e0e0;
         text-align: left;
     }
 
     table th {
-        background-color: #007bff;
+        background-color: #4caf50;
         color: white;
+        font-weight: normal;
     }
 
-    table tr:nth-child(even) {
-        background-color: #f8f9fa;
+    table tr:last-child td {
+        border-bottom: none;
     }
 
     h2 {
         text-align: center;
-        color: #007bff;
-        margin-top: 30px;
+        color: #4caf50;
+        margin-top: 25px;
+        font-weight: normal;
     }
 
     p {
-        margin: 10px 0;
-        font-size: 16px;
+        margin: 12px 0;
+        font-size: 14px;
     }
 
     strong {
         font-weight: bold;
+        color: #333;
     }
 </style>
 
@@ -157,3 +174,4 @@
     <p><strong>Comisión:</strong> $@ViewData["Comision"]</p>
     <p><strong>Total a Pagar:</strong> $@ViewData["Total"]</p>
 }
+
